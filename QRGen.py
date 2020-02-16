@@ -17,7 +17,7 @@ def generate_qr(data):
     img = pyqrcode.create(data)
     buffers = io.BytesIO()
     img.png(buffers, scale=8)
-    encoded = b64encode(buffers.getValue()).decode("ascii")
+    encoded = b64encode(buffers.getvalue()).decode("ascii")
     print("QR Code successfully generated")
     return "data:image/png;base64, " + encoded
 
