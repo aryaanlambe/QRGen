@@ -1,5 +1,5 @@
 # QRGen
-QR Code Generator built using Python &amp; Eel.
+QR Code Generator built using Python &amp; Eel. Main purpose of this app was just to explore Eel's possibilities.
 
 ## Screenshots:
 
